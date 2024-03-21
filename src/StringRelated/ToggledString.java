@@ -1,8 +1,5 @@
 package StringRelated;
-
-import java.util.Arrays;
 import java.util.Scanner;
-
 public class ToggledString
 {
     public static void main(String[] args)
@@ -20,7 +17,5 @@ public class ToggledString
         }
         input = new String(CharArr);
         System.out.println("THE TOGGLED STRING OF THE INPUT STRING IS : "+input);
-
-
     }
 }
