@@ -3,9 +3,10 @@ package java_Basics;
 import java.util.Random;
 import java.util.Scanner;
 
-public class RockPaperScissor {
+public class JankenPon {
     static final int ROCK = 1;
     static final int PAPER = 2;
+
     static final int SCISSOR = 3;
 
     static Scanner sc = new Scanner(System.in);
