@@ -1,7 +1,6 @@
 package Training_March22;
 
 import java.util.*;
-
 public class StringFreq {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -16,7 +15,6 @@ public class StringFreq {
             String str = scanner.nextLine();
             frequencyMap.put(str, frequencyMap.getOrDefault(str, 0) + 1);
         }
-
         System.out.println("Enter the number of queries:");
         int queriesCount = scanner.nextInt();
         scanner.nextLine(); // Consume newline character
