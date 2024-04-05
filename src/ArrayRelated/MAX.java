@@ -16,7 +16,7 @@ public class MAX
             arr[i]=sc.nextInt();
         arrMax(arr);
     }
-    private static void arrMax(int @NotNull [] arr)
+    private static void arrMax(int  [] arr)
     {
         int Max = arr[0];
         int secondMax = arr[0];
