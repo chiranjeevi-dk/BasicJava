@@ -2,6 +2,8 @@ package ArrayRelated;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
+
 public class ArrayConCat
 {
     static Scanner sc = new Scanner(System.in);
@@ -16,6 +18,7 @@ public class ArrayConCat
         {
             arr1[i]=sc.nextInt();
         }
+
         System.out.println("Enter the elements in array 2");
         for(i=0;i<arr2.length;i++)
         {
